@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="warp">
+        <div class="header">
+            <div>
+                <h1>待办事项</h1>
+            </div>
+            
+        </div>
+        <div class="main">
+            <div class="list">
+                <span>示例</span>
+                <button name="delete">完成</button>
+            </div>
+        </div>
+        <div class="add" >
+            <input id="add" type="text" value="准备做什么？" onfocus="if(value=='准备做什么？') {value=''}" this.style.color='#5e5e5e'  onblur="if (value=='') {value='准备做什么？'}">
+            <button id="addBtn" type="submit">OK</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

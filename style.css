@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+.warp{
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: #3ec2ff;
+    box-shadow: 1px 1px 5px 0.5px #eee;
+}
+.header div{
+    height: 100%;
+    margin-left: 20px;
+    display: table;
+}
+.header h1{
+    font-size: 23px;
+    color: #ffffff;
+
+    vertical-align:middle;display:table-cell;
+}
+.main{
+    height: 90%;
+}
+.list{
+    height: 50px;
+    margin: 10px 15px 10px 10px;
+    border: solid 1px #eee;
+    box-shadow: 1px 1px 5px 0.5px #eee;
+    line-height: 50px;
+}
+.list span{
+    margin-left: 20px;
+    color: #868585;
+}
+.list button{
+    height: 100%;
+    width: 15%;
+    float:right;
+    border: none;
+    color: #fff;
+    background-color: #3ec2ff;
+}
+.add{
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    box-shadow: 1px 1px 5px 0.5px #eee;
+    position: absolute;
+    bottom: 5px;
+}
+.add input{
+    height: 100%;
+    width: 75%;
+    float: left;
+    padding-left: 15px;
+    border: none;
+    color: #8b8b8b;
+}
+.add button{
+    height: 100%;
+    width: 15%;
+    background-color: #3ec2ff;
+    float:left;
+    right: 20px;
+    color: #fff;
+    border: none;
+}
+.add button:active{
+    background-color: #fff;
+}
