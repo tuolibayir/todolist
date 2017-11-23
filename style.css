@@ -53,8 +53,8 @@ html,body{
     width: 100%;
     line-height: 40px;
     box-shadow: 1px 1px 5px 0.5px #eee;
-    position: absolute;
-    bottom: 5px;
+    position: fixed;
+    bottom: 2px;
 }
 .add input{
     height: 100%;
