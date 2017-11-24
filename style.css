@@ -27,7 +27,7 @@ html,body{
     vertical-align:middle;display:table-cell;
 }
 .main{
-    height: 90%;
+    margin-bottom: 100px;
 }
 .list{
     height: 50px;
